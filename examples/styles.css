@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: sans-serif;
 }
 
 .container {
@@ -31,6 +32,7 @@ body {
   color: #222;
   transition: .2s;
   text-decoration: none;
+  font-weight: normal
 }
 
 .img-cover .cover .btn a:hover {
