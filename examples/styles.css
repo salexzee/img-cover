@@ -10,3 +10,30 @@ body {
   display: inline-block;
   margin-right: 50px;
 }
+
+.img-cover#fire p{
+  position: relative;
+  text-align: center;
+  font-size: 1.3em;
+  color: #fb9124;
+  margin: 40% 0;
+}
+
+.img-cover .cover .btn {
+  text-align: center;
+}
+
+.img-cover .cover .btn a {
+  border: 1px solid #444;
+  font-size: 1.4em;
+  padding: 5px 10px;
+  background: #ccc;
+  color: #222;
+  transition: .2s;
+  text-decoration: none;
+}
+
+.img-cover .cover .btn a:hover {
+  background: #444;
+  color: #f1f1f1;
+}
