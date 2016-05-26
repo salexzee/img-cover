@@ -1,0 +1,32 @@
+.img-cover {
+  position: relative;
+}
+
+.img-cover {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #444;
+}
+
+.img-cover img,
+.img-cover .cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.img-cover .cover {
+  background: hsla(0, 100%, 100%, .8);
+  transition: .2s;
+  opacity: 0;
+  overflow-y: auto;
+}
+
+.img-cover .cover:hover {
+  opacity: 1;
+}
+
+ .img-cover .cover p {
+   margin: 5%;
+   font-weight: bold;
+ }

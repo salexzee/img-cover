@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+
+.container {
+  padding: 50px;
+}
+
+.img-cover {
+  display: inline-block;
+  margin-right: 50px;
+}
