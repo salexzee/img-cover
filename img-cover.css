@@ -23,6 +23,11 @@
   height: 100%;
 }
 
+.img-cover .cover-text {
+  max-width: 100%;
+  margin: 5%;
+}
+
 .img-cover .cover {
   background: hsla(0, 100%, 100%, .8);
   transition: .2s;
@@ -34,7 +39,15 @@
   opacity: 1;
 }
 
- .img-cover .cover p {
-   margin: 5%;
-   font-weight: bold;
- }
+.round-cover,
+.round-cover .cover {
+  border-radius: 50%;
+}
+
+.round-cover {
+  overflow: hidden;
+}
+
+.round-cover .cover-text {
+  margin: 15%;
+}

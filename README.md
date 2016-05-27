@@ -16,9 +16,11 @@ Then just set up the images you would like to use it on.
 <div class="img-cover">
   <img src="http://your-image.jpg" alt="Your image alt." />
   <div class="cover">
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    </p>
+    <div class="cover-text">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+    </div>
   </div>
 </div>
 ```
@@ -31,4 +33,16 @@ Img Cover has default sizes of 200px for the height and width of images. If you 
 }
 ```
 
-There is currently nothing special to handle round images, but that will be added soon.
+If you want to have rounded images, just add the `.round-cover` class to your the main div.
+
+```HTML
+<div class="img-cover round-cover">
+```
+
+If you want more spacing for the text on your rounded images, give the `.cover-text` class more margin. The default margin is `15%`.
+
+```CSS
+.round-cover .cover-text {
+  margin: 20%;
+}
+```
